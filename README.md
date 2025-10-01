@@ -42,10 +42,12 @@ to-do-list/
 ## 📸 Preview do App
 
 ### 🌞 Modo Claro
-![Modo Claro](https://i.imgur.com/ExemploModoClaro.png)
+![Modo Claro]<img width="1240" height="705" alt="image" src="https://github.com/user-attachments/assets/e64be4db-df0c-4e5b-988c-35f142e1f899" />
+)
 
 ### 🌙 Modo Escuro
-![Modo Escuro](https://i.imgur.com/ExemploModoEscuro.png)
+![Modo Escuro](<img width="1101" height="628" alt="image" src="https://github.com/user-attachments/assets/17bdca90-0a5c-4058-9d53-222ad169cb31" />
+)
 
 ### 🎬 GIF de Funcionamento
 ![GIF Funcionalidade](https://i.imgur.com/ExemploGif.gif)
