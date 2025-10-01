@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  transition: background 0.3s ease;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #333;
+}
+
+#theme-toggle {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 8px;
+}
+
+.tab {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.tab.active {
+  background: #549daf;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2193b0;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #176b82;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.actions button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  transform: scale(1.2);
+}
+
+.actions .edit {
+  color: #28a752;
+}
+
+.actions .remove {
+  color: #dc3545;
+}
+
+/* Modo noturno*/
+body.dark {
+  background: linear-gradient(135deg, #232526, #414345);
+}
+
+body.dark .container {
+  background: #2b2b2b;
+  color: #f1f1f1;
+}
+
+body.dark h1 {
+  color: #f1f1f1;
+}
+
+body.dark input {
+  background: #444;
+  border: 1px solid #666;
+  color: #fff;
+}
+
+body.dark li {
+  background: #3a3a3a;
+  color: #fff;
+}
+
+body.dark li.completed span {
+  color: #aaa;
+}
+
+body.dark #theme-toggle {
+  color: #f1f1f1;
+}
+
+body.dark .tab {
+  background: #444;
+  color: #ddd;
+}
+
+body.dark .tab.active {
+  background: #176b82;
+  color: white;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+#add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px; /* espaço entre + e texto */
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #2193b0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+#add-btn:hover {
+  background: #176b82;
+}
