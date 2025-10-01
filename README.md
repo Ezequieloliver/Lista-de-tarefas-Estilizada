@@ -46,13 +46,9 @@ to-do-list/
 )
 
 ### 🌙 Modo Escuro
-![Modo Escuro](<img width="1101" height="628" alt="image" src="https://github.com/user-attachments/assets/17bdca90-0a5c-4058-9d53-222ad169cb31" />
+![Modo Escuro](<img width="948" height="695" alt="image" src="https://github.com/user-attachments/assets/d2fe294c-6793-484a-b5fa-e5a8ea1e8180" />
+" />
 )
-
-### 🎬 GIF de Funcionamento
-![GIF Funcionalidade](https://i.imgur.com/ExemploGif.gif)
-> Mostrando: adicionar tarefas, marcar concluída, alternar abas e dark mode
-
 ---
 ⚡ Contato
 
