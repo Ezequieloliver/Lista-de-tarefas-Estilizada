@@ -39,18 +39,19 @@ to-do-list/
 ├── script.js # Lógica do app (adicionar, editar, remover, filtros)
 └── README.md # Este arquivo
 
-📸 Preview
-+---------------------------------------+
-| ✨ To-Do List           🌙 [Dark Mode] |
-+---------------------------------------+
-| [Todas] [Pendentes] [Concluídas]      |
-+---------------------------------------+
-| [Digite uma nova tarefa...] [+ Adicionar] |
-+---------------------------------------+
-| - Tarefa 1 [✔️] [✏️] [🗑️]              |
-| - Tarefa 2 [ ] [✏️] [🗑️]              |
-+---------------------------------------+
+## 📸 Preview do App
 
+### 🌞 Modo Claro
+![Modo Claro](https://i.imgur.com/ExemploModoClaro.png)
+
+### 🌙 Modo Escuro
+![Modo Escuro](https://i.imgur.com/ExemploModoEscuro.png)
+
+### 🎬 GIF de Funcionamento
+![GIF Funcionalidade](https://i.imgur.com/ExemploGif.gif)
+> Mostrando: adicionar tarefas, marcar concluída, alternar abas e dark mode
+
+---
 ⚡ Contato
 
 Desenvolvido por Ezequiel Oliveira
