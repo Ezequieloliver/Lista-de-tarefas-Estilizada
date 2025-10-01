@@ -32,3 +32,26 @@ Possui **persistência de dados com Local Storage** e suporte a **modo noturno (
 
 ## 🚀 Estrutura do Projeto
 
+to-do-list/
+│
+├── index.html # Estrutura da página
+├── style.css # Estilos da aplicação
+├── script.js # Lógica do app (adicionar, editar, remover, filtros)
+└── README.md # Este arquivo
+
+📸 Preview
++---------------------------------------+
+| ✨ To-Do List           🌙 [Dark Mode] |
++---------------------------------------+
+| [Todas] [Pendentes] [Concluídas]      |
++---------------------------------------+
+| [Digite uma nova tarefa...] [+ Adicionar] |
++---------------------------------------+
+| - Tarefa 1 [✔️] [✏️] [🗑️]              |
+| - Tarefa 2 [ ] [✏️] [🗑️]              |
++---------------------------------------+
+
+⚡ Contato
+
+Desenvolvido por Ezequiel Oliveira
+Para dúvidas ou melhorias: ✉️ oliveiraezequiel474@gmail.com
